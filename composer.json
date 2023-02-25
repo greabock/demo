@@ -1,0 +1,21 @@
+{
+    "name": "roman/learn",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Roman\\Learn\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Роман Сохарев",
+            "email": "greabock@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "10.x-dev",
+        "illuminate/container": "10.x-dev"
+    }
+}
